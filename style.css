@@ -11,9 +11,11 @@ section{
 h1{
     font-size: 40px;
 }
+
 p{
     color: darkgray;
 }
+
 /* Top Section Start Here */
 
 .orange{ color: orange;}
@@ -23,7 +25,6 @@ p{
     float: left;
     margin-left: 5%;
     padding: 2%;
-
 }
 
 .half-width img { width: 100%;}
@@ -73,7 +74,6 @@ h2{
     border-left: 5px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
-
 }
 
 #baby-web{
