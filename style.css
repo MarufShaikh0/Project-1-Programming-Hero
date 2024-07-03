@@ -5,7 +5,14 @@ body{
 
 section{
     height: 500px;
-    padding-bottom: 50px;
+    padding-bottom:100px;
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+    color: darkgray;
 }
 /* Top Section Start Here */
 
@@ -37,6 +44,44 @@ section{
 
 /* Dream Section Start Here */
 
+h2{
+    font-size: 35px;
+}
 
-
+.dream-section{
+    background-image: url("Project\ Background\ File/Background Image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
 /* Dream Section End Here */
+
+/* Experience Section Start Here */
+
+.experience-section{
+    background-image: url("Project\ Background\ File/Background Image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.single-ex{
+    box-shadow: 10px 20px 40px gray;
+    height:65%;
+    background-color: white;
+}
+
+#full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+
+}
+
+#baby-web{
+    border-left: 5px solid ;
+    border-image: linear-gradient(180deg, lightsalmon, orange );
+    border-image-slice: 1;
+}
+
+/* Experience Section End Here */
+
+footer p{ text-align: center;}
